@@ -1,7 +1,7 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        stack<int> st;
+        stack<char> st;
         int n= s.size();
         string str="";
         for(int i=n-1;i>=0;i--)
